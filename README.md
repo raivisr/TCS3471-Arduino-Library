@@ -62,10 +62,7 @@ Short function reference:
 
 	void setGain(tcs3471Gain_t gain)
 &nbsp;&nbsp;&nbsp;&nbsp;sets gain of color and light detector amplifier. possible gain values are
-&nbsp;&nbsp;&nbsp;&nbsp;TCS3471_GAIN_1x
-&nbsp;&nbsp;&nbsp;&nbsp;TCS3471_GAIN_4x
-&nbsp;&nbsp;&nbsp;&nbsp;TCS3471_GAIN_16x
-&nbsp;&nbsp;&nbsp;&nbsp;TCS3471_GAIN_60x
+&nbsp;&nbsp;&nbsp;&nbsp;TCS3471_GAIN_1x, TCS3471_GAIN_4x, TCS3471_GAIN_16x and TCS3471_GAIN_60x
 
 	void enableInterrupt()
 &nbsp;&nbsp;&nbsp;&nbsp;enables interrupt generation on TCS3471, please read datasheet and look at example
